@@ -1,0 +1,86 @@
+html {
+  height: 100%;
+}
+
+header {
+  padding-top: 10px;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+main {
+  min-height: 300px;
+  display: flex;
+  align-items: center;
+}
+
+body {
+  background-image: linear-gradient(45deg, #00dbde, #fc00ff);
+}
+
+.container {
+  width: 1024px;
+  min-height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tabs {
+  background-color: rgba(153, 50, 204, 0.219);
+  margin-top: 20px;
+  padding: 20px 20px 20px 20px;
+  min-height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.image {
+  max-width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 30%;
+}
+
+.card1 {
+  min-height: 300px;
+  max-width: 300px;
+  text-align: center;
+}
+
+.mainTitle {
+  font-size: 50px;
+}
+
+.titles {
+}
+
+.herobox1 {
+  flex: 2;
+}
+
+.herobox2 {
+  flex: 1;
+}
+
+.logo {
+  background-color: rgba(223, 223, 223, 0.308);
+  border-radius: 30%;
+}
+
+.logoimg {
+  max-height: 200px;
+}
+
+.imagebox {
+  text-align: end;
+}
+
+.bender {
+  max-height: 300px;
+  border-radius: 30%;
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgba(169, 169, 169, 0.472);
+}
