@@ -18,6 +18,11 @@ main {
 
 body {
   background-image: linear-gradient(45deg, #00dbde, #fc00ff);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
 }
 
 .container {
@@ -50,10 +55,14 @@ body {
 }
 
 .mainTitle {
-  font-size: 50px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 80px;
+  padding: 20px 20px 20px 0px;
 }
 
 .titles {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
 }
 
 .herobox1 {
